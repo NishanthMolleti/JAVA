@@ -6,47 +6,17 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/commons-collections4-4.4.jar">
+	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/commons-collections4-4.1.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/hamcrest-core-1.3.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/javax.servlet.jsp.jstl-api-1.2.1.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/jstl-api-1.2.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/junit-4.12.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/poi-4.1.2.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/poi-ooxml-3.17.jar">
+	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/poi-3.17.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/poi-ooxml-schemas-3.7.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="A:/DOWNLOADS_PERSONAL/SOFTWARES/Referenced Libraries/taglibs-standard-impl-1.2.5.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
