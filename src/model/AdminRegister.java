@@ -65,29 +65,30 @@ public class AdminRegister
 		UnamePwdValidation validate = new UnamePwdValidation();
 		try(Scanner scanner = new Scanner(System.in))
 		{
-			System.out.println("Enter Your Name: ");
+			System.out.println("Hellooo..! Welcome to E-MANDI \n You are registering your details as an Adminstrator \n");
+			System.out.println("Enter Your Name: \n");
 			String userName = scanner.nextLine();
 			
-			System.out.println("Enter Your Email-Id: ");
+			System.out.println("Enter Your Email-Id: \n");
 			String email = scanner.nextLine();
 			
-			System.out.println("Enter Your Password: ");
+			System.out.println("Enter Your Password: \n");
 			String password = scanner.nextLine();
 			
-			System.out.println("Re-enter Your Password: ");
+			System.out.println("Re-enter Your Password: \n");
 			String confirmPassword = scanner.nextLine();
 			
-			System.out.println("Enter Your Mobile Number: ");
+			System.out.println("Enter Your Mobile Number: \n");
 			String mobile = scanner.nextLine();
 			
 			if(validate.checkUserDetails(email, password, confirmPassword, mobile))
 			{
-				System.out.println("ALL IS WELL AGAIN..!");
 				register.setUserName(userName);
 				register.setEmail(email);
 				register.setPassword(password);
 				register.setConfirmPassword(confirmPassword);
 				register.setMobile(mobile);
+				printData(register);
 			}
 			else
 			{
@@ -96,7 +97,7 @@ public class AdminRegister
 			
 		}	
 	}
-	public void printData(Register register)
+	public static void printData(Register register)
 	{
 		System.out.println("Your Name: " + register.getUserName());
 		System.out.println("Your Name: " + register.getEmail());
